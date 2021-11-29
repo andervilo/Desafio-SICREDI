@@ -3,6 +3,17 @@
 ## Diagrama da Aplicação
 ![diagram](diagrama-aplicacao.jpg)
 
+## Tecnologias utilizadas
+- Java
+- Spring Boot
+- Spring WebFlux
+- Docker
+- Docker Compose
+- MongoDB
+- Apache Kafka
+- JUnit 5
+- Gradle
+
 ## Requisitos 
 - Java 11
 - Gradle
