@@ -1,0 +1,23 @@
+server:
+    port: 8081
+    error:
+        include-stacktrace: never
+spring:
+    data:
+        mongodb:
+            database: pautas
+            host: localhost
+            port: 27017
+    kafka:
+        bootstrap-servers: localhost:9092
+        consumer:
+            group-id: test-consumer-group
+message:
+    topic:
+        pautas: pautas-finalizadas
+
+springdoc:
+    api-docs:
+        path: /api-docs
+    swagger-ui:
+        path: /swagger-ui
